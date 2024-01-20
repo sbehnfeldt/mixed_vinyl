@@ -14,3 +14,14 @@ $> syfmony serve -d
 * generate base project files
 * generate and install CA certificate
 * run Symfony's local development web server
+
+
+## Lesson 2) Meet our Tiny App
+Overview of directory structure:
+* /public/: all publicly-accessible files, particularly the front controller index.php
+* /config/: all config files
+* /src/: PHP classes
+
+Symfony itself "lives" in the /vendor/ directory, as it is a set of Composer dependency packages.
+
+Also installed Symfony plugin for PHPStorm.
