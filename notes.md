@@ -37,3 +37,12 @@ Also installed Symfony plugin for PHPStorm.
 * Wildcards indicated in route with placeholder name in curly braces
 * Auto passes parameter to route handler with same name as placeholder
 * Specifying default value of null for parameter makes wildcard optional
+
+
+## Lesson 5) Symfony Flex: Aliases, Packs & Recipes
+Flex is short-cut package:
+* aliases provide common-sense alias for Composer packages
+* packs specify sub-dependencies, which flex can install
+* recipes are package-specific commands executed when installing that package 
+`$> composer require templates`
+
