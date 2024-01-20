@@ -31,4 +31,9 @@ Also installed Symfony plugin for PHPStorm.
 * Controllers live in /src/Controller directory in App\Controller namespace
 * Routes configured as annotation in the controller class, above route handler 
 * Route handler returns Response object
-* 
+ 
+
+## Lesson 4) Wildcard Routes
+* Wildcards indicated in route with placeholder name in curly braces
+* Auto passes parameter to route handler with same name as placeholder
+* Specifying default value of null for parameter makes wildcard optional
