@@ -25,3 +25,10 @@ Overview of directory structure:
 Symfony itself "lives" in the /vendor/ directory, as it is a set of Composer dependency packages.
 
 Also installed Symfony plugin for PHPStorm.
+
+
+## Lesson 3) Routes, Controllers & Responses
+* Controllers live in /src/Controller directory in App\Controller namespace
+* Routes configured as annotation in the controller class, above route handler 
+* Route handler returns Response object
+* 
