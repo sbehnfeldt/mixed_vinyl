@@ -46,3 +46,9 @@ Flex is short-cut package:
 * recipes are package-specific commands executed when installing that package 
 `$> composer require templates`
 
+## Lesson 6) Flex Recipes
+symfony/flex checks for recipes when composer install is run and executes any it finds.
+Recipes live in github. manifest.json controls the recipe.  
+List the recipes that have been executed:
+`$> composer recipes`
+
