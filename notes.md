@@ -62,3 +62,5 @@ Twig syntax:
 * "Comment": {# #}
 
 
+## Lesson 8) Twig Inheritance
+Extending base template via blocks
