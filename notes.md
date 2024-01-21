@@ -52,3 +52,13 @@ Recipes live in github. manifest.json controls the recipe.
 List the recipes that have been executed:
 `$> composer recipes`
 
+## Lesson 7) Twig
+Controllers do not a base class, but extending from AbstractContoller adds convenience functions.
+`render()` convention: template directory with same name as the controller; template with the same name as the controller function.
+
+Twig syntax: 
+* "Say Something": `{{ variable }}` or `{{ function() }}`
+* "Do Something" : `{% %}`
+* "Comment": {# #}
+
+
